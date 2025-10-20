@@ -1,0 +1,13 @@
+name: Vikas Singh
+
+on: 
+   push:
+   branches: [main]
+
+   jobs:
+   demo:
+   Runs-on:ubuntu-latest
+
+   steps:
+   - name :Greetings
+     run: echo "Hello"
